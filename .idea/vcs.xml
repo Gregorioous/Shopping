@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android_app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Animathion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AppBilling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BLinked_Android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Coffeproject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Firebase" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GitHubExample/github-api-android-sample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NavigationComponent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NestedRecyclerView" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Notificathion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PracticationMvvm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ProjectFromIlianochka" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/QRCodeGeneratorScanner" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Recyclerview" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RoomOne" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RuleGame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ShopByMysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Stimmul_Android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TZ" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WeatherAPp3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/delivery_Android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github-api-android-sample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kvartel-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rest_countries" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/runar-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/simple-compose-ui" vcs="Git" />
+  </component>
+</project>
