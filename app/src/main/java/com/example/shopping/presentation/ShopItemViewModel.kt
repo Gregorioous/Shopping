@@ -56,11 +56,10 @@ class ShopItemViewModel() : ViewModel() {
         _shopItem.value?.let {
             val item = it.copy(name = name,count =  count)
             changesShopItemUseCase.ChangesShopItem(item)
-
+            finishWork()
+             }
         }
 
-        }
-        finishWork()
     }
 
     private fun parseName(inputName: String?):String {
