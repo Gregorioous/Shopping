@@ -12,6 +12,7 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.shopping.R
+import com.example.shopping.databinding.ActivityShopItemBinding
 import com.example.shopping.domain.ShopIten
 import com.google.android.material.textfield.TextInputLayout
 
@@ -19,9 +20,11 @@ class ShopItemActivity : AppCompatActivity(), ShopItemFragment.OnEditingFinshedL
 
     private var screenMode = MODE_UNKNOWN
     private var shopItemId = ShopIten.UNDEFINED_ID
+    private lateinit var binding: ActivityShopItemBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityShopItemBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_shop_item)
         parseIntent()
         if (savedInstanceState == null) {
