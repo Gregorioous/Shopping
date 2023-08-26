@@ -7,14 +7,10 @@ import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.shopping.R
 import com.example.shopping.databinding.FragmentShopItemBinding
 import com.example.shopping.domain.ShopIten
-import com.google.android.material.textfield.TextInputLayout
 
 class ShopItemFragment() : Fragment() {
 
@@ -138,7 +134,7 @@ class ShopItemFragment() : Fragment() {
             if (!args.containsKey(EXTRA_SHOP_ITEM_ID)) {
                 throw RuntimeException("Param shop item id is absent")
             }
-            shopItemId = args.getInt(EXTRA_SHOP_ITEM_ID,ShopIten.UNDEFINED_ID)
+            shopItemId = args.getInt(EXTRA_SHOP_ITEM_ID, ShopIten.UNDEFINED_ID)
         }
     }
 

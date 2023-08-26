@@ -1,8 +1,7 @@
 package com.example.shopping.presentation
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.shopping.domain.ShopIten
 import com.example.shopping.data.ShopListRepositoryImpl
 import com.example.shopping.domain.*
 

@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.ListAdapter
-import androidx.recyclerview.widget.RecyclerView
 import com.example.shopping.R
 import com.example.shopping.databinding.ItemDisabledBinding
 import com.example.shopping.databinding.ItemEnabledBinding
